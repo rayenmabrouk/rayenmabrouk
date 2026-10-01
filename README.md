@@ -8,4 +8,4 @@ Looking for a **Cloud / DevOps PFE internship from February 2027** — EU. Frenc
 
 **Stack:** AWS · Terraform · Docker · GitHub Actions · Linux/Bash · Networking (TCP/IP, routing, IPsec VPN) · DevSecOps tooling
 
-📫 rayenmabrouk9@gmail.com · [LinkedIn](https://www.linkedin.com/in/rayenmabrouk/)
+📫 rayenmabrouk9@gmail.com 
