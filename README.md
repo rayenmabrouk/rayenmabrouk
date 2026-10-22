@@ -1,15 +1,47 @@
-### Rayen Mabrouk: Cloud & DevOps engineering student
-Final-year Cloud Computing & Networks engineering student (EPI Digital School, Master's level, ASIIN / Euro-Inf accredited).
-Looking for a **Cloud / DevOps end-of-studies internship (PFE) from February 2027**, open to relocation in Europe. English · French · Arabic.
+# Hi, I'm Rayen Mabrouk
 
-**Projects**
-- [EPIConnect](https://github.com/rayenmabrouk/EPIConnect): Django platform migrated from a single Azure VM to AWS ECS Fargate + RDS + S3 with Terraform; GitHub Actions pipeline with 10 blocking security gates, migrations as one-off tasks, smoke test and automatic rollback.
-- [CloudPulse](https://github.com/rayenmabrouk/cloudpulse): AWS infrastructure around an existing open-source app: 3 Terraform modules, approval-gated plan/apply, keyless deploys through SSM, health-checked rollback, S3 backups, CloudWatch alarms and Prometheus/Grafana.
-- [hybrid-ipsec-vpn](https://github.com/rayenmabrouk/hybrid-ipsec-vpn): site-to-site IKEv2/IPsec VPN from an on-prem site to AWS with a hybrid post-quantum key exchange (ECDH P-384 + ML-KEM-768); strongSwan 6, offline PKI with CRL, Terraform + Ansible, full rebuild in 5.5 min, 11 documented tests.
-- [epiconnect-k8s](https://github.com/rayenmabrouk/epiconnect-k8s): self-hosted 3-node k3s cluster built with Ansible; EPIConnect with Helm, StatefulSet, NetworkPolicies and 5 failure drills with evidence (rolling update with 0 failed requests, node loss, Helm rollback).
+**Cloud & DevOps engineering student** building and securing cloud platforms: Terraform-managed AWS, containers on ECS Fargate and Kubernetes, security-gated CI/CD, and secure networking.
 
-**Stack:** AWS · Terraform · Ansible · Docker · Kubernetes (k3s) / Helm · GitHub Actions · Prometheus / Grafana · Linux / Bash · Networking (TCP/IP, routing, IPsec / IKEv2 VPN) · DevSecOps tooling
+Final year at EPI Digital School (Sousse, Tunisia), looking for a **4–6 month end-of-studies internship (PFE) from 1 February 2027**, in France or elsewhere in Europe. Working languages: English, French, Arabic.
 
-**Badges:** [Credly](https://www.credly.com/users/rayenmabrouk9) (AWS Academy, Google Cloud Kubernetes, Cisco CCNA ITN & SRWE)
+---
 
-📫 rayenmabrouk9@gmail.com
+## What I've built
+
+### [EPIConnect](https://github.com/rayenmabrouk/EPIConnect): AWS migration and DevSecOps pipeline
+Django/PostgreSQL campus platform moved from a single Azure VM to AWS ECS Fargate behind an ALB, with RDS in private subnets, S3 pre-signed uploads and Secrets Manager, all in Terraform. GitHub Actions pipeline with 10 blocking security gates, build-once delivery, smoke test and automatic rollback.
+
+### [CloudPulse](https://github.com/rayenmabrouk/cloudpulse): AWS platform around an open-source app
+3 Terraform modules, approval-gated plan/apply, keyless deploys through SSM, health-checked rollback proven with a deliberately broken image, encrypted backups, CloudWatch alarms and Prometheus/Grafana. About $16/month, with no NAT gateway or load balancer.
+
+### [hybrid-ipsec-vpn](https://github.com/rayenmabrouk/hybrid-ipsec-vpn): on-prem to AWS
+IKEv2/IPsec tunnel with hybrid post-quantum key exchange (ECDH P-384 + ML-KEM-768), offline PKI, Terraform and Ansible, and 11 documented tests.
+
+### [epiconnect-k8s](https://github.com/rayenmabrouk/epiconnect-k8s): self-hosted Kubernetes
+3-node k3s cluster built with 9 Ansible roles; Helm, StatefulSet, default-deny NetworkPolicy and 5 failure drills.
+
+### [pulseboard](https://github.com/rayenmabrouk/pulseboard): Node.js on Kubernetes
+Containerised Node.js service published to Docker Hub and deployed on k3s on AWS EC2, with probes and a pod-deletion self-healing test.
+
+---
+
+## Toolbox
+
+| | |
+|---|---|
+| **Cloud** | AWS (ECS Fargate, EC2, VPC, RDS, S3, ECR, IAM, CloudWatch, SSM), Azure (Firewall, UDR, peering, Private DNS, Monitor) |
+| **IaC & automation** | Terraform, Ansible |
+| **Containers** | Docker, Kubernetes (k3s), Helm |
+| **CI/CD & security** | GitHub Actions, Trivy, Checkov, CodeQL, gitleaks, OWASP ZAP |
+| **Observability** | CloudWatch, Prometheus, Grafana |
+| **Networking** | TCP/IP, OSPF, IPsec VPN, PKI, Wireshark |
+| **Code** | Linux, Bash, Python, PostgreSQL, Git |
+
+## Credentials
+
+Verifiable on [Credly](https://www.credly.com/users/rayenmabrouk9): AWS Skill Builder knowledge badges, AWS Academy, Google Cloud, Cisco Networking Academy.
+Microsoft Applied Skills: Azure networking security and Azure Monitor.
+
+## Contact
+
+[rayenmabrouk9@gmail.com](mailto:rayenmabrouk9@gmail.com)
