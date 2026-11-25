@@ -2,7 +2,7 @@
 
 **Cloud & DevOps engineering student** building and securing cloud platforms: Terraform-managed AWS, containers on ECS Fargate and Kubernetes, security-gated CI/CD, and secure networking.
 
-Final year at EPI Digital School (Sousse, Tunisia), looking for a **4–6 month end-of-studies internship (PFE) from 1 February 2027**, in France or elsewhere in Europe. Working languages: English, French, Arabic.
+Final year at EPI Digital School (Sousse, Tunisia), looking for a **4–6 month end-of-studies internship (PFE) from February 2027**. Open to any location in Tunisia. Working languages: Arabic, French, English.
 
 ---
 
